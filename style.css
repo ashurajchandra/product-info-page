@@ -1,0 +1,36 @@
+body{
+    background-color: grey;
+}
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left-item{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    align-items: center;
+}
+
+.right-item{
+    width: 32%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.right-item img{
+    /* width: 30px; */
+}
+.avtar{
+    margin-left:30px;
+}
+/* .hr-line{
+    width: 85%;
+    margin: auto;
+} */
+
