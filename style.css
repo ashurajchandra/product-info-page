@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 
@@ -29,8 +29,78 @@ body{
 .avtar{
     margin-left:30px;
 }
-/* .hr-line{
+.hr-line{
     width: 85%;
+}
+.product-container{
+    border: 2px solid red;
+    display: flex;
+    width: 80%;
     margin: auto;
+    margin-top: 5%;
+}
+/* .images{
+    width: 50%;
 } */
+.preview-image{
+    width: 600px;
+}
 
+.preview-image img{
+    object-fit: contain;
+    border-radius: 5px;
+}
+.sub-images img{
+
+    width: 23%;
+    border-radius: 5px;
+}
+.sub-images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.sub-images img:first-child{
+    border: 2px solid orange;
+    opacity: 0.4;
+}
+.product-description{
+    padding: 10%;
+}
+#title{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: orange;
+}
+.heading{
+    font-size: 26px;
+}
+.product-info{
+    font-size: 15px;
+    color: grey;
+}
+.price-section{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.current-price{
+    display: flex;
+    justify-content: space-between;
+}
+.previous-price{
+    margin-top: 4%;
+    text-decoration: line-through;
+    color: darkgrey;
+}
+
+button{
+    height: 45px;
+    width: 100px;
+    border-radius: 4px;
+}
+.add-product-button{
+    background-color: orange;
+    color: white;
+}
