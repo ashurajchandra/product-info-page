@@ -33,8 +33,9 @@ body{
     width: 85%;
 }
 .product-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
+    flex-direction: row;
     width: 80%;
     margin: auto;
     margin-top: 5%;
@@ -103,4 +104,36 @@ button{
 .add-product-button{
     background-color: orange;
     color: white;
+}
+
+
+/* @media only screen and(max-width:600px){ */
+
+@media (max-width:600px){
+
+    body{
+        background-color: lightblue;
+    }
+
+.product-container{
+    flex-direction: column;
+}
+.preview-image{
+    width: 95%;
+}
+.sub-images{
+    width: 95%;
+}
+.action-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;  
+}
+.action-buttons button{
+    width: 90%;
+}
+.left-item p{
+  display: none;
+}
 }
